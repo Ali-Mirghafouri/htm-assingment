@@ -1,13 +1,197 @@
 body {
+  width: 100%;
+  height: 100%;
+  background-color: #b2ccee;
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  font-family: "extraLight";
+  src: local("extraLight"), url(./constants/fonts/RawsonExtraLight.otf) format("OpenType");
+}
+@font-face {
+  font-family: "light";
+  src: local("light"), url(./constants/fonts/RawsonLight.otf) format("OpenType");
+}
+@font-face {
+  font-family: "med";
+  src: local("med"), url(./constants/fonts/RawsonMedium.otf) format("OpenType");
+}
+@font-face {
+  font-family: "reg";
+  src: local("reg"), url(./constants/fonts/RawsonRegular.otf) format("OpenType");
+}
+@font-face {
+  font-family: "bold";
+  src: local("bold"), url(./constants/fonts/RawsonBold.otf) format("OpenType");
+}
+@font-face {
+  font-family: "extraBold";
+  src: local("extraBold"), url(./constants/fonts/RawsonExtraBold.otf) format("OpenType");
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.flex_grow {
+  flex-grow: 1;
+}
+
+.flex_row {
+  display: flex;
+}
+
+.flex_row_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex_row_vertical_center {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.flex_row_horizontal_center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex_row_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_column_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+.flex_column_vertical_center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex_column_horizontal_center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.full_height {
+  height: 100%;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.full_width_height {
+  height: 100%;
+  width: 100%;
+}
+
+.text_align {
+  text-align: center;
+}
+
+.fit_height {
+  height: fit-content;
+}
+
+.nav_bar {
+  /* background-color: ; */
+  position: absolute;
+  top: 0px;
+  z-index: 1000000000;
+}
+
+.nav_bar_space {
+  height: 141px;
+}
+
+.nav_bar_logo {
+  width: 515px;
+  height: 104px;
+  margin-top: 9px;
+  margin-left: 30px;
+  margin-bottom: 27px;
+}
+
+.nav_bar_tabs {
+  font-family: bold;
+  font-size: 35px;
+  text-align: center;
+  width: 11%;
+  text-decoration: none;
+  color: white;
+}
+
+.home_banner {
+  padding-top: 160px;
+  position: relative;
+  z-index: 1;
+  height: fit-content;
+}
+.home {
+  padding-left: 103px;
+}
+
+.home_banner_header_light {
+  font-family: extraLight;
+  color: white;
+  font-size: 100px;
+}
+.home_banner_header_bold {
+  font-family: reg;
+  color: white;
+  font-size: 100px;
+  margin-right: 20px;
+}
+.home_banner_subHeader {
+  margin-top: 8px;
+  margin-bottom: 54px;
+  font-family: reg;
+  color: white;
+  font-size: 40px;
+}
+.home_banner_button {
+  font-family: reg;
+  color: white;
+  font-size: 40px;
+  width: fit-content;
+  border: 8px solid white;
+  padding: 8px 90px;
+}
+.home_banner_image {
+  position: absolute;
+  right: 150px;
+  top: 92px;
+}
+.home_banner_new {
+  font-family: reg;
+  position: absolute;
+  font-size: 606px;
+  color: rgba(600, 600, 600, 0.14);
+  filter: blur(8px);
+  z-index: -10;
+  top: -60px;
+  right: 0px;
+  letter-spacing: 20px;
 }

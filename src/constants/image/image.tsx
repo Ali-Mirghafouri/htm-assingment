@@ -12,6 +12,13 @@ import phone_icon from "./phone_icon.png"
 import facebook_icon from "./facebook_icon.png"
 import twitter_icon from "./twitter_icon.png"
 import insta_icon from "./insta_icon.png"
+import products_header from "./products_header.png"
+import shoe_1 from "./shoe_1.png"
+import shoe_2 from "./shoe_2.png"
+import shoe_3 from "./shoe_3.png"
+import shoe_4 from "./shoe_4.png"
+import shoe_5 from "./shoe_5.png"
+import shoe_6 from "./shoe_6.png"
 
 export const IMAGES = {
   navBar: logo,
@@ -24,5 +31,9 @@ export const IMAGES = {
   footer: {
     contacts: [phone_icon, mail_icon, location_icon],
     social: [facebook_icon, twitter_icon, insta_icon],
+  },
+  products: {
+    header: products_header,
+    products: [shoe_1, shoe_2, shoe_3, shoe_4, shoe_5, shoe_6],
   },
 }

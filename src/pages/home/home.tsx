@@ -46,7 +46,6 @@ export function Home() {
         </div>
       </div>
       <div className="home_empty" />
-      <Footer />
     </div>
   )
 }

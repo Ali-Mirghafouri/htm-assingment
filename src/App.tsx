@@ -1,5 +1,5 @@
 import React from "react"
-import {AboutUs, Home, Products} from "./pages"
+import {AboutUs, ContactUs, Home, Products} from "./pages"
 import {HashRouter as Router, Route, Switch, Redirect} from "react-router-dom"
 import {NavBar, Footer} from "./components"
 
@@ -14,6 +14,7 @@ function App() {
         <Route path={"/Home"} exact component={Home} />
         <Route path={"/Our Products"} exact component={Products} />
         <Route path={"/About Us"} exact component={AboutUs} />
+        <Route path={"/Contact Us"} exact component={ContactUs} />
       </Switch>
       <Footer />
     </Router>

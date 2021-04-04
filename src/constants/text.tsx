@@ -78,3 +78,15 @@ export const ABOUTUS = {
   description:
     "Established in Brooklyn, New York City over 5 years ago, SneakerHeads revolutionized sneaker retail as the original consignment store for rare as well as popular shoes. Carrying the rarest exclusives and collectible sneakers, SneakerHeads has evolved from a one-stop sneaker destination, to a cultural hub for sneaker enthusiasts and novices alike.",
 }
+
+export const CONTACTUS = {
+  header: "CONTACT US",
+  contact: {
+    title: "CONTACT INFORMATION",
+    text: ["1-300-66-2525", "sneakerheads@gmail.com"],
+  },
+  social: "SOCIAL MEDIA",
+  name: "Your Name",
+  email: "Your Email",
+  feedback: "Share Your Thoughts",
+}

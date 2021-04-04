@@ -22,6 +22,7 @@ import shoe_6 from "./shoe_6.png"
 import aboutUs_header from "./aboutUs_header.png"
 import shoe_logo from "./shoe_logo.png"
 import map from "./map.png"
+import contactUs_bg from "./contactUs_bg.png"
 
 export const IMAGES = {
   navBar: logo,
@@ -44,4 +45,7 @@ export const IMAGES = {
     logo: shoe_logo,
     map: map
   },
+  contactUs: {
+    bg: contactUs_bg
+  }
 }

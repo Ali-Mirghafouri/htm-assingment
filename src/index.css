@@ -391,21 +391,24 @@ code {
 }
 
 .header_text {
-  position: absolute;
   font-size: 179px;
   color: white;
   font-family: reg;
   z-index: 2;
 }
+.header_content_container {
+  position: absolute;
+  z-index: 2;
+}
 
 .header_img {
-  filter: blur(8px);
+  filter: blur(4px);
 }
 
 .header_img_cover {
   top: -8px;
   position: absolute;
-  background-color: #929292;
+  background-color: black;
   z-index: 1;
   opacity: 0.4;
   padding-bottom: 8px;
@@ -492,4 +495,76 @@ code {
   height: 55px;
   font-size: 38px;
   margin-right: 16px;
+}
+
+.aboutUS_map {
+  margin-top: 74px;
+  margin-left: 50px;
+  margin-bottom: 82px;
+}
+
+.aboutUS_title {
+  margin-top: 74px;
+  margin-bottom: 82px;
+  font-size: 76px;
+  font-family: bold;
+  text-align: center;
+}
+.aboutUS_sub_title {
+  font-size: 52px;
+  font-family: reg;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutUS_text {
+  font-size: 45px;
+  font-family: light;
+  text-align: center;
+}
+
+.aboutUS_box_container {
+  position: relative;
+  width: 915px;
+  height: 709px;
+}
+
+.aboutUS_box1 {
+  position: absolute;
+  width: 790px;
+  height: 500px;
+  border: 20px solid black;
+  top: 56px;
+  left: 41px;
+  z-index: 1;
+}
+
+.aboutUS_box2 {
+  position: absolute;
+  width: 790px;
+  height: 500px;
+  border: 20px solid #b2ccee;
+  top: 101px;
+  left: 81px;
+  z-index: 2;
+}
+
+.aboutUS_box_text {
+  position: absolute;
+  font-size: 169px;
+  width: 600px;
+  text-align: center;
+  left: 186px;
+  top: 175px;
+  font-family: reg;
+}
+
+.aboutUS_description {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 45px;
+  width: 961px;
+  height: fit-content;
+  margin: auto;
+  padding: 10px;
 }

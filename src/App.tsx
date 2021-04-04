@@ -1,5 +1,5 @@
 import React from "react"
-import {Home, Products} from "./pages"
+import {AboutUs, Home, Products} from "./pages"
 import {HashRouter as Router, Route, Switch, Redirect} from "react-router-dom"
 import {NavBar, Footer} from "./components"
 
@@ -13,6 +13,7 @@ function App() {
         </Route>
         <Route path={"/Home"} exact component={Home} />
         <Route path={"/Our Products"} exact component={Products} />
+        <Route path={"/About Us"} exact component={AboutUs} />
       </Switch>
       <Footer />
     </Router>

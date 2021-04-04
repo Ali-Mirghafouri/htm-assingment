@@ -58,3 +58,23 @@ export const PRODUCTS = {
   ],
   counter: ["1", "2", "3"],
 }
+
+export const ABOUTUS = {
+  header: "SNEAKERHEADS",
+  location: {
+    title: "OUR LOCATIONS",
+    text: [
+      {
+        title: "UNITED STATES",
+        text: ["867 High Ridge Ave. New", "York, NY 10009"],
+      },
+      {
+        title: "MALAYSIA",
+        text: ["1 Ampang Park Shopping Centre", "184, Jalan Ampang"],
+      },
+    ],
+  },
+  aboutUs: "ABOUT US",
+  description:
+    "Established in Brooklyn, New York City over 5 years ago, SneakerHeads revolutionized sneaker retail as the original consignment store for rare as well as popular shoes. Carrying the rarest exclusives and collectible sneakers, SneakerHeads has evolved from a one-stop sneaker destination, to a cultural hub for sneaker enthusiasts and novices alike.",
+}

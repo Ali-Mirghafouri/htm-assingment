@@ -19,6 +19,9 @@ import shoe_3 from "./shoe_3.png"
 import shoe_4 from "./shoe_4.png"
 import shoe_5 from "./shoe_5.png"
 import shoe_6 from "./shoe_6.png"
+import aboutUs_header from "./aboutUs_header.png"
+import shoe_logo from "./shoe_logo.png"
+import map from "./map.png"
 
 export const IMAGES = {
   navBar: logo,
@@ -35,5 +38,10 @@ export const IMAGES = {
   products: {
     header: products_header,
     products: [shoe_1, shoe_2, shoe_3, shoe_4, shoe_5, shoe_6],
+  },
+  aboutUs: {
+    header: aboutUs_header,
+    logo: shoe_logo,
+    map: map
   },
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/htm-assingment/static/css/main.60f14863.chunk.css",
+    "main.css": "/htm-assingment/static/css/main.b0a763be.chunk.css",
     "main.js": "/htm-assingment/static/js/main.925d9d09.chunk.js",
     "main.js.map": "/htm-assingment/static/js/main.925d9d09.chunk.js.map",
     "runtime-main.js": "/htm-assingment/static/js/runtime-main.7b47adad.js",
@@ -8,7 +8,7 @@
     "static/js/2.8a90a7d6.chunk.js": "/htm-assingment/static/js/2.8a90a7d6.chunk.js",
     "static/js/2.8a90a7d6.chunk.js.map": "/htm-assingment/static/js/2.8a90a7d6.chunk.js.map",
     "index.html": "/htm-assingment/index.html",
-    "static/css/main.60f14863.chunk.css.map": "/htm-assingment/static/css/main.60f14863.chunk.css.map",
+    "static/css/main.b0a763be.chunk.css.map": "/htm-assingment/static/css/main.b0a763be.chunk.css.map",
     "static/js/2.8a90a7d6.chunk.js.LICENSE.txt": "/htm-assingment/static/js/2.8a90a7d6.chunk.js.LICENSE.txt",
     "static/media/FAQ_header.16af4dc4.png": "/htm-assingment/static/media/FAQ_header.16af4dc4.png",
     "static/media/index.css": "/htm-assingment/static/media/RawsonRegular.59edbd0f.otf",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b47adad.js",
     "static/js/2.8a90a7d6.chunk.js",
-    "static/css/main.60f14863.chunk.css",
+    "static/css/main.b0a763be.chunk.css",
     "static/js/main.925d9d09.chunk.js"
   ]
 }

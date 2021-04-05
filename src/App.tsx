@@ -8,14 +8,14 @@ function App() {
     <Router>
       <NavBar />
       <Switch>
-        <Route exact path="/">
-          <Redirect exact from="/" to="/Home" />
+        <Route exact path="/htm-assingment">
+          <Redirect exact from="/htm-assingment" to="/htm-assingment/Home" />
         </Route>
-        <Route path={"/Home"} exact component={Home} />
-        <Route path={"/Our Products"} exact component={Products} />
-        <Route path={"/About Us"} exact component={AboutUs} />
-        <Route path={"/Contact Us"} exact component={ContactUs} />
-        <Route path={"/FAQ"} exact component={FAQ} />
+        <Route path={"/htm-assingment/Home"} exact component={Home} />
+        <Route path={"/htm-assingment/Our Products"} exact component={Products} />
+        <Route path={"/htm-assingment/About Us"} exact component={AboutUs} />
+        <Route path={"/htm-assingment/Contact Us"} exact component={ContactUs} />
+        <Route path={"/htm-assingment/FAQ"} exact component={FAQ} />
       </Switch>
       <Footer />
     </Router>

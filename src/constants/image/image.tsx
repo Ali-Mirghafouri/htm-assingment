@@ -23,6 +23,8 @@ import aboutUs_header from "./aboutUs_header.png"
 import shoe_logo from "./shoe_logo.png"
 import map from "./map.png"
 import contactUs_bg from "./contactUs_bg.png"
+import FAQ_header from "./FAQ_header.png"
+import down_arrow from "./down_arrow.png"
 
 export const IMAGES = {
   navBar: logo,
@@ -43,9 +45,13 @@ export const IMAGES = {
   aboutUs: {
     header: aboutUs_header,
     logo: shoe_logo,
-    map: map
+    map: map,
   },
   contactUs: {
-    bg: contactUs_bg
-  }
+    bg: contactUs_bg,
+  },
+  FAQ: {
+    header: FAQ_header,
+    arrow: down_arrow,
+  },
 }

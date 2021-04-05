@@ -90,3 +90,27 @@ export const CONTACTUS = {
   email: "Your Email",
   feedback: "Share Your Thoughts",
 }
+
+export const FAQTEXT = {
+  header: {
+    title: "FAQ",
+    subTitle: "Ask Us Your Question",
+  },
+  text: [
+    {
+      title: "Want to get the latest Sneaker Releases?",
+      text:
+        "Most releases have limited quantities and move fast, but you can improve your odds. By joining our Membership program you get access almost immediately to the latest pair of sneakers as soon as they are released. The Membership program also gives access to amazing sales and promotion.",
+    },
+    {
+      title: "How is SneakerHeads different from other retailers?",
+      text:
+        "We're a ship-to-verify and consignment marketplace, meaning we source products from independent sellers who use our platform to sell shoes. All shoes are authenticated and verified to be as described by our team of trained specialists",
+    },
+    {
+      title: "Are all products sold at SneakerHeads authentic?",
+      text:
+        "We're a ship-to-verify and consignment marketplace, meaning we source products from independent sellers who use our platform to sell shoes. All shoes are authenticated and verified to be as described by our team of trained specialists",
+    },
+  ],
+}

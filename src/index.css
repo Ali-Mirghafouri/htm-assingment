@@ -31,8 +31,8 @@ code {
   src: local("reg"), url(./constants/fonts/RawsonRegular.otf) format("OpenType");
 }
 @font-face {
-  font-family: "bold";
-  src: local("bold"), url(./constants/fonts/RawsonBold.otf) format("OpenType");
+  font-family: "RawsonBold";
+  src: local("RawsonBold"), url(./constants/fonts/RawsonBold.otf) format("OpenType");
 }
 @font-face {
   font-family: "extraBold";
@@ -135,7 +135,7 @@ code {
 }
 
 .nav_bar_tabs {
-  font-family: bold;
+  font-family: RawsonBold;
   font-size: 35px;
   text-align: center;
   width: 11%;
@@ -217,7 +217,7 @@ code {
   color: white;
   font-size: 75px;
   width: 916px;
-  font-family: bold;
+  font-family: RawsonBold;
   margin-bottom: 100px;
 }
 
@@ -241,7 +241,7 @@ code {
 .home_top_product_title {
   margin-right: 44px;
   font-size: 70px;
-  font-family: bold;
+  font-family: RawsonBold;
   text-align: center;
   margin-bottom: 44px;
 }
@@ -436,7 +436,7 @@ code {
   width: 100%;
   font-size: 52px;
   text-align: center;
-  font-family: bold;
+  font-family: RawsonBold;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -508,7 +508,7 @@ code {
   margin-top: 74px;
   margin-bottom: 82px;
   font-size: 76px;
-  font-family: bold;
+  font-family: RawsonBold;
   text-align: center;
 }
 .aboutUS_sub_title {
@@ -695,4 +695,42 @@ code {
   color: white;
   margin-top: 28px;
   cursor: pointer;
+}
+
+.FAQ {
+  background-color: white;
+  /* width: 100%; */
+  height: 1000px;
+  padding: 0px 300px;
+  padding-top: 103px;
+}
+
+.collapse_title_close {
+  font-size: 45px;
+  font-family: RawsonBold;
+  margin-bottom: 70px;
+}
+.collapse_title_open {
+  font-size: 45px;
+  font-family: RawsonBold;
+  margin-bottom: 70px;
+}
+.collapse_img_close {
+  margin-bottom: 70px;
+}
+.collapse_img_open {
+  margin-bottom: 70px;
+}
+
+.collapse_text_close {
+  transition: all 0.3s;
+  max-height: 0px;
+  opacity: 0;
+}
+.collapse_text_open {
+  transition: all 0.3s;
+  max-height: 600px;
+  opacity: 1;
+  font-size: 30px;
+  font-family: reg;
 }
